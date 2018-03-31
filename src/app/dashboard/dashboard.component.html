@@ -1,0 +1,20 @@
+<app-primary-header>
+  Dashboard
+</app-primary-header>
+
+<ngx-select-container [(selectedItems)]="selected">
+  <div class="row">
+    <div class="col-4" *ngFor="let document of documents">
+      <div class="card mt-3" [selectItem]="document">
+        <div class="card-body">
+          <h1 class="text-center text-primary">
+            <i class="fa fa-file-text-o"></i>
+          </h1>
+        </div>
+        <div class="card-body">
+          {{document.name}}
+        </div>
+      </div>
+    </div>
+  </div>
+</ngx-select-container>

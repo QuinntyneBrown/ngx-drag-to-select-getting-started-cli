@@ -1,0 +1,13 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+:root {
+  --default-color: rgb(245, 245, 245);
+  --primary-color: rgb(63, 81, 181);
+}
+
+html,body {
+  height:100%;
+  width:100%;
+  padding:0;
+  margin:0;
+}
